@@ -12,8 +12,8 @@ body{
 .navbar-default .navbar-brand{
 	font-family: 'Lobster', cursive;
 	margin-top: 0;
-	margin-bottom: 0;
-	font-size: 30px;
+	margin-bottom: 10px;
+	font-size: 40px;
 	color:#fff;
 	text-shadow: 1px 1px 1px #000;
 }
@@ -27,6 +27,9 @@ body{
 }
 #nav-list a:hover{
 	background: #fff;
+}
+.navbar-header button.navbar-toggle{
+	margin-right: 20px;
 }
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
 	border:1px solid #60401f;
